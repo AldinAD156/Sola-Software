@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../visualstudio/github/SOLA-Scanner-Software/styleid.css" />
+
+</head>
+<body>
+    <div id="sola">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="dropdown">
+                <button class="navbar-toggler-icon fixed" data-toggle="dropdown" id="#solaNavbar" aria-haspopup="true" aria-expanded="false"></button>
+                <a href="../visualstudio/github/SOLA-Scanner-Software/solahptseite.html" class="btn btn-dark"><i class="fa fa-home fa-2x"></i></a>
+                <div class="dropdown-menu" aria-labelledby="solaNavbar">
+                    <a href="../visualstudio/github/SOLA-Scanner-Software/zurueck.html" class="dropdown-item"><i class="fa fa-qrcode"></i>Scan</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="../visualstudio/github/SOLA-Scanner-Software/fehler.html" class="dropdown-item"><i class="fa fa-info"></i>Fehler Melden</a>
+                </div>
+            </div>
+
+            <!--Wareneingang button-->
+            <button type="button" class="btn btn-dark mr-2" disabled>Wareneingang</button>
+            <!--Wareneingang button-->
+
+            <div class="dropdown dropleft float-right ml-auto">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    User
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>Fehler melden</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <br />
+        <div class="container-fluid">
+            <div class="col-xs-12">
+                <h2>Bestellungen</h2><br />
+                <input type="text" />
+                <input type="submit" value="Suchfilter" /><br />
+
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B145127 [51222] <b>Bleispitz GmbH</b>. . . vom 01.01.2020</p>
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B147890 [52536] <b>FRIWO Gerätebau GmbH</b>. . . vom 01.01.2020</p>
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B148359 [58800] <b>Sola-Metal Kft.</b>. . . vom 01.01.2020</p>
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B149033 [59224] <b>VPW-Werkzeugservice</b>. . . vom 01.01.2020</p>
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B149537 [54801] <b>KUGELFINK Loacker OG</b>. . . vom 01.01.2020</p>
+                <hr />
+                <i class="fa fa-circle-o" aria-hidden="true"> </i><p> B150823 [59403] <b>Würth Handelsges.m.b.H</b>. . . vom 01.01.2020</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

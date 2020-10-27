@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../visualstudio/github/SOLA-Scanner-Software/styleid.css" />
+
+</head>
+<body>
+    <div id="sola">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="dropdown">
+                <button class="navbar-toggler-icon fixed" data-toggle="dropdown" id="#solaNavbar" aria-haspopup="true" aria-expanded="false"></button>
+                <a href="../visualstudio/github/SOLA-Scanner-Software/solahptseite.html" class="btn btn-dark"><i class="fa fa-home fa-2x"></i></a>
+                <div class="dropdown-menu" aria-labelledby="solaNavbar">
+                    <a href="../visualstudio/github/SOLA-Scanner-Software/zurueck.html" class="dropdown-item"><i class="fa fa-qrcode"></i>Scan</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="../visualstudio/github/SOLA-Scanner-Software/fehler.html" class="dropdown-item"><i class="fa fa-info"></i>Fehler Melden</a>
+                </div>
+            </div>
+
+
+            <!--Umlagerung button-->
+            <button type="button" class="btn btn-dark mr-auto pull-left" disabled>Umlagerung</button>
+            <!--Umlagerung button-->
+
+            <div class="dropdown dropleft float-right ml-auto">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    User
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>Fehler melden</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="container-fluid">
+            <br />
+            <h2>Meine Aufträge</h2><br />
+
+            <div class="input-group input-group-sm">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="">Status</span>
+                </div>
+
+                <select name="status" id="status">
+                    <option value="Offen">Offen</option>
+                    <option value="Geschlossen">Geschlossen</option>
+                    <option value="Unterbrochen">Unterbrochen</option>
+                    <option value="Verzug">Verzug</option>
+                    <option value="Sonstiges">Sonstiges</option>
+                </select>
+
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="">Mng</span>
+                </div>
+
+                <select name="anzahl" id="anzahl">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+
+                <button type="button" class="btn btn-info btn-sm ml-auto">Suche</button>
+
+            </div><br>
+
+
+
+        </div>
+        <hr />
+        <p style="text-align:center;">
+            SOLA Logistics Mobile [UI:V0.21|API:1.06b]
+        </p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

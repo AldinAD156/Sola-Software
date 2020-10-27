@@ -1,0 +1,42 @@
+﻿* {
+}
+
+#sola {
+    max-width: 800px;
+    height: 100%;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+.card-body .btn {
+    width: 230px;
+}
+
+.card-body i {
+    width: 30px;
+    float: left;
+    line-height: 26px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 0;
+    padding-bottom: 5px;
+    background-color: skyblue;
+}
+
+    .card-body a {
+        text-align: left;
+    }
+
+.dropdown-menu a {
+    text-align: left;
+}
+
+.dropdown-menu .fa {
+    width: 30px;
+}
